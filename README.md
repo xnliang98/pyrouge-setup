@@ -1,7 +1,13 @@
 # pyrouge setup
 Step 1: `pip install -r requirements.txt`
 
-Step 2: `pyrouge_set_rouge_path /to/yourpath/pyrouge/tools/ROUGE-1.5.5`
+Step 2: 
+```
+git clone https://github.com/andersjo/pyrouge.git
+
+pyrouge_set_rouge_path /to/yourpath/pyrouge/tools/ROUGE-1.5.5
+
+```
 
 Step 3: `cd /pyrouge/tools/ROUGE-1.5.5/data; rm WordNet-2.0.exc.db`
 
